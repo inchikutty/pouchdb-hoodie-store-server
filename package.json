@@ -1,0 +1,19 @@
+{
+  "name": "pouchdb-hoodie-store-server",
+  "version": "1.0.0",
+  "description": "Tiny server with front-end store API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inchikutty/pouchdb-hoodie-store-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inchikutty/pouchdb-hoodie-store-server/issues"
+  },
+  "homepage": "https://github.com/inchikutty/pouchdb-hoodie-store-server"
+}
