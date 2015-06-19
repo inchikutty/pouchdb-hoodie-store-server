@@ -3,23 +3,22 @@
   "version": "1.0.0",
   "description": "Tiny server with front-end store API",
   "main": "index.js",
+  "bin" : { "pouchdb-hoodie-store-server" : "./bin/pouchdb-hoodie-store-server" },
   "dependencies": {
     "express": "^4.12.4"
   },
-  "devDependencies": {
-    "express": "^4.12.4"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/inchikutty/pouchdb-hoodie-store-server.git"
+    "url": "https://github.com/hoodiehq/pouchdb-hoodie-store-server.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/inchikutty/pouchdb-hoodie-store-server/issues"
+    "url": "https://github.com/hoodiehq/pouchdb-hoodie-store-server/issues"
   },
-  "homepage": "https://github.com/inchikutty/pouchdb-hoodie-store-server"
+  "homepage": "https://github.com/hoodiehq/pouchdb-hoodie-store-server"
 }
