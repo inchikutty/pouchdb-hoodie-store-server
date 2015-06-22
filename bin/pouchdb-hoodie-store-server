@@ -1,3 +1,15 @@
 #!/usr/bin/env node
 
-require('../index.js')
+var startServer = require('../index.js')
+
+var options = {
+  port: 8000,
+  path: process.cwd()
+};
+
+console.log( 'Welcome to pouchdb hoodie store server' );
+startServer(options, function (error) {
+  if (error) throw error;
+
+  console.log('Serving %s at http://localhost:%d', options.path, options.port);
+})
