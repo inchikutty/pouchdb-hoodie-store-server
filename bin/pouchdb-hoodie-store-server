@@ -11,5 +11,5 @@ console.log( 'Welcome to pouchdb hoodie store server' );
 startServer(options, function (error) {
   if (error) throw error;
 
-  console.log('Serving %s\\index.html at http://localhost:%d', options.path, options.port);
+  console.log('Access any static file at %s\\<file name> at http://localhost:%d/<file name>', options.path, options.port);
 })
