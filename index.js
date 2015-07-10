@@ -5,6 +5,6 @@
 
 		//serve any static asset
 		app.use(express.static( options.path));
-
 		app.listen(options.port, callback);
+
 	}

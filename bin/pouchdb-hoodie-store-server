@@ -6,12 +6,14 @@ var options = {
   port: 8000,
   path: process.cwd()
 };
+
 var dirSeparator = require('path').sep
 
-
 console.log( 'Welcome to pouchdb hoodie store server' );
-startServer(options, function (error) {
-  if (error) throw error;
 
+startServer(options, function (error) {
+
+  if (error) throw error;
   console.log('Access any static file at %s'+ dirSeparator +'file_name at http://localhost:%d/file_name', options.path, options.port);
+
 })
