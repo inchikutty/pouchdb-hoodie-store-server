@@ -4,7 +4,6 @@
 		var app = express();
 
 		//serve any static asset
-		app.use(express.static('files'));
 		app.use(express.static( options.path));
 
 		app.listen(options.port, callback);
